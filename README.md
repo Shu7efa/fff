@@ -1,1 +1,53 @@
-# fff
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beautiful Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to right, #3498db, #8e44ad);
+      color: #2c3e50;
+    }
+
+    #name {
+      font-size: 4em; /* Increased font size */
+      font-weight: bold;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    #name::before,
+    #name::after {
+      content: '❤️'; /* Heart emoji before and after the name */
+      margin: 0 5px;
+      font-size: 1.5em;
+    }
+
+    #line {
+      margin-bottom: 10px;
+      font-size: 1.5em; /* Increased font size for the line */
+    }
+
+    #thought {
+      text-align: center;
+      font-size: 1.2em; /* Increased font size for the thought */
+    }
+  </style>
+</head>
+<body>
+  <div id="line">Alhamdulillah</div>
+  <div id="name">❤️ FAIZAH ❤️</div>
+  <div id="thought">
+    <p>"A friend is one who overlooks your broken fence and admires the flowers in your garden. May our friendships be blessed by Allah's guidance and kindness."</p>
+  </div>
+</body>
+</html>
